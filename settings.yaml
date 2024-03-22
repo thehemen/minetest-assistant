@@ -1,0 +1,66 @@
+network:
+  filename: 'models/yolov8n.engine'
+  conf: 0.8
+  iou: 0.8
+
+resolution:
+  width: 1920
+  height: 1080
+
+names:
+  0: Bat
+  1: Blaze
+  2: Cave Spider
+  3: Creeper
+  4: Enderdragon
+  5: Enderman
+  6: Ghast
+  7: Hoglin
+  8: Husk
+  9: Iron Golem
+  10: Little Piglin
+  11: LIttle Zombie
+  12: Magma Cube
+  13: Piglin
+  14: Piglin Brute
+  15: Pillager
+  16: Silverfish
+  17: Skeleton
+  18: Slime
+  19: Spider
+  20: Strider
+  21: Villager
+  22: Wanderer
+  23: Zombie
+  24: Zombie Villager
+
+key_capture:
+  bbox: 'g'
+  text: 'h'
+  fps: 'z'
+  exit: 'q'
+
+history:
+  window: 25
+  conf: 5
+  delay: 15
+
+overlay:
+  bbox:
+    color: [0, 255, 0]
+    font_name: 'Arial'
+    font_size: 12
+    alignment: 'left'
+    used: True
+  text:
+    color: [255, 255, 255]
+    font_name: 'Arial'
+    font_size: 32
+    alignment: 'center'
+    used: True
+  fps:
+    color: [0, 255, 0]
+    font_name: 'Italic'
+    font_size: 32
+    alignment: 'right'
+    used: True
