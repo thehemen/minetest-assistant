@@ -1,6 +1,7 @@
 # Minetest Assistant
 
 This project implements the detection of Minetest MineClone2 mobs.
+
 A visual description of the project implementation is available on [Medium](https://medium.com/@thehemen/minetest-assistant-mob-detection-to-make-game-simple-0090c323f7d1).
 
 ## Usage
